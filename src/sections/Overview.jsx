@@ -19,7 +19,7 @@ export const Overview = ({ openContactModal }) => {
           </h1>
           <p className="max-w-2xl md:text-base text-sm text-black font-body font-light">
          <span className="font-body font-bold text-xs md:text-lg ">
-        Phase 2 of Prestige Township on Whitefield – Varthur Road  </span>
+        Phase 2 of Prestige Township on Sarjapur Road – East Bangalore </span>
           <br />
           
             <span>
