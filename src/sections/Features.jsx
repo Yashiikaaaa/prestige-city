@@ -3,7 +3,7 @@ import React from 'react';
 export const Features = () => {
   // Array containing the features data
  const featuresData = [
-    { id: 1, title: 'Project Size', value: '10+ acres' },
+    { id: 1, title: 'Project Size', value: '50+ acres' },
     { id: 2, title: 'Possession', value: '2029 ' },
     { id: 3, title: 'Starting Price', value: '₹ 1.38 Cr*' },
     { id: 4, title: 'Configurations', value: '2, 3 & 4 BHK' },
@@ -18,7 +18,7 @@ export const Features = () => {
             <React.Fragment key={feature.id}>
               {/* Feature Item */}
               <div className="w-[48%] sm:w-[19%] flex flex-col gap-1 sm:gap-4 ">
-                <h1 className="text-xs md:text-lg font-bold font-heading uppercase">
+                <h1 className="text-xs md:text-lg font-bold font-serif font-heading uppercase">
                   {feature.title}
                 </h1>
                 <h3 className="text-2xl md:text-4xl font-subheading font-normal">
